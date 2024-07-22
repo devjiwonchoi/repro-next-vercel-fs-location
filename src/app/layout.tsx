@@ -1,4 +1,4 @@
-import { readJSON } from '@/app/lib'
+import { readJSON } from '@/lib'
 
 export const dynamic = 'force-dynamic'
 
