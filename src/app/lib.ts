@@ -12,5 +12,7 @@ export async function readJSON() {
     join(process.cwd(), `json/${fooOrbar}.json`),
     'utf-8'
   )
-  return JSON.parse(json)
+  const result = JSON.parse(json)
+  console.log(result)
+  return result
 }
